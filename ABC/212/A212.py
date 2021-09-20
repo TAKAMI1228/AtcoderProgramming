@@ -1,7 +1,7 @@
 A,B=map(int,input().split())
+S="Alloy"
 if 0<A and B==0:
-    print("Gold")
+    S="Gold"
 elif 0<B and A==0:
-    print("Silver")
-elif 0<A and 0<B:
-    print("Alloy")
+    S="Silver"
+print(S)
